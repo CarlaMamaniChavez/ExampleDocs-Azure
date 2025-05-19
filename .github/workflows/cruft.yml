@@ -4,8 +4,8 @@ permissions:
   pull-requests: write
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 2 * * 1" # Every Monday at 2am
+#  schedule:
+#    - cron: "0 2 * * 1" # Every Monday at 2am
 jobs:
   update:
     runs-on: ubuntu-latest
